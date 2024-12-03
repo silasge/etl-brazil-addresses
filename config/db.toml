@@ -1,0 +1,5 @@
+[db]
+dir = "./data/db"
+name = "brazil_addresses_geodata.duckdb"
+schemas = ["staging", "intermediate", "mart"]
+extensions = ["spatial"]

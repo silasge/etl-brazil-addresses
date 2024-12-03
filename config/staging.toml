@@ -1,0 +1,167 @@
+[staging]
+dir = "./data/staging"
+#create_if_not_exists = "selected" # all, selected, none
+#drop_if_exists = "selected"
+
+[[staging.files]]
+table_name = "stg_acre_addresses"
+file_name = "ac.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_alagoas_addresses"
+file_name = "al.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_amazonas_addresses"
+file_name = "am.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_bahia_addresses"
+file_name = "ba.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_amapa_addresses"
+file_name = "ap.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_ceara_addresses"
+file_name = "ce.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_distrito_federal_addresses"
+file_name = "df.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_espirito_santo_addresses"
+file_name = "es.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_goias_addresses"
+file_name = "go.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_maranhao_addresses"
+file_name = "ma.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_minas_gerais_addresses"
+file_name = "mg.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_mato_grosso_do_sul_addresses"
+file_name = "ms.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_mato_grosso_addresses"
+file_name = "mt.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_para_addresses"
+file_name = "pa.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_paraiba_addresses"
+file_name = "pb.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_pernambuco_addresses"
+file_name = "pe.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_piaui_addresses"
+file_name = "pi.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_parana_addresses"
+file_name = "pr.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_rio_de_janeiro_addresses"
+file_name = "rj.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_rio_grande_do_norte_addresses"
+file_name = "rn.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+
+[[staging.files]]
+table_name = "stg_rondonia_addresses"
+file_name = "ro.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_roraima_addresses"
+file_name = "rr.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_rio_grande_do_sul_addresses"
+file_name = "rs.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_santa_catarina_addresses"
+file_name = "sc.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_sergipe_addresses"
+file_name = "se.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_sao_paulo_addresses"
+file_name = "sp.geojson"
+create_if_not_exists = false
+drop_if_exists = false
+
+[[staging.files]]
+table_name = "stg_tocantins_addresses"
+file_name = "to.geojson"
+create_if_not_exists = false
+drop_if_exists = false
